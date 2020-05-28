@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+   content: "";
+   display: block;
+   clear: both;
+}
+
+body {
+	color: #5C6567;
+     font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 2;
+}
+a {
+	text-decoration: none;
+}
+h2 {
+	font-size: 40px;
+	margin: 30px 0px;
+}
+h3 {
+	font-size: 30px;
+	margin: 30px 0px;
+	text-align: center;
+}
+section {
+	padding: 20px 0px;
+}
+
+/*------------全ページ共通-------------*/
+.wrap {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.txtxs {
+	font-size: 12px;
+}
+.txts {
+	font-size: 15px;
+}
+.txtm {
+	font-size: 20px;
+	margin: 20px 0px;
+}
+.txtl {
+	font-size: 25px;
+	margin: 20px 0px;
+}
+.yellow_txt {
+	color: #FFFE62;
+}
+.white_txt {
+	color: #fff;
+}
+.blue_txt {
+	color: #00C4CC;
+}
+.btnl {
+	font-size: 25px;
+	font-weight: 700;
+	border-radius: 32px;
+	padding: 20px 40px;
+}
+.yellow_btn {
+	color: #5C6567;
+  	background: -webkit-linear-gradient(left, #FFFE32, #FFD627);
+}
+.yellow_btn:hover {
+	background:  #CCB100;
+}
+.top_bg {
+	background-color: #00C4CC;
+}
+
+/*------------ヘッダー-------------*/
+header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+}
+.logo {
+	padding-top: 20px;
+}
+.logo_img {
+	width: 170px;
+}
+.header_cont {
+	padding: 0px 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.nav_cont {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	align-items: center;
+}
+.nav_list {
+	margin: 10px 20px;
+}
+.nav_txt {
+	font-size: 20px;
+	font-weight: 700;
+}
+.nav_txt:hover {
+	color: #E3E230;
+}
+.header_bg {
+	height: 50px;
+}
+/*------------メインビジュアル-------------*/
+.main-visual_cont {
+	padding: 10% 0px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.signup_btn {
+	text-align: center;
+	margin-top: 20px;
+}
+.main-visual_img {
+	width: 600px;
+	height: 400px
+}
+/*------------ポイント-------------*/
+.point {
+	position: relative;
+}
+.circle_bg1 {
+	width: 100%;
+	position: absolute;
+	top: -80px;
+}
+.point-logo_img{
+	width: 150px;
+}
+.point_cont {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+.point_detail {
+	padding: 10px;
+	border-radius: 15px;
+	border: solid 2px #FFFE32;
+}
+/*------------ー機能紹介-------------*/
+.intro{
+	padding: 50px 0px;
+}
+.intro_box {
+	height: 500px;
+	margin: 30px 0px;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.intro_txt_box {
+	position: relative;
+	padding: 20px 20px 20px 80px;
+	flex-basis: 50%;
+	background-color: #fff;
+	box-shadow: 0 0 10px 10px rgba(0, 0, 0, .06);
+	border-radius: 15px;
+	z-index: 20;
+}
+.intro_img {
+	height: 500px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.intro_box:nth-child(even) .intro_img {
+	left: 0;
+}
+.intro_box:nth-child(even) {
+	flex-direction: row-reverse;
+}
+.marker {
+	background: linear-gradient(transparent 70%, #FFFE62 70%);
+	font-weight: bold;
+}
+.intro_count {
+	font-size: 50px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+/*------------キャッチコピー-------------*/
+.catch-copy {
+	margin-bottom: 30px;
+}
+.catch-copy_txt {
+	text-align: center;
+}
+/*------------お問い合わせ-------------*/
+.contact {
+	padding: 20px 0px;
+}
+.contact_txt {
+	text-align: center;
+}
+.form {
+  border-top: 1px solid #fff;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 720px;
+}
+.form_label {
+  margin: 10px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.form_item {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding: 5px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #FFFE62;
+  font-size: 14px;
+}
+.form_item_input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 15px 0px;
+  height: 48px;
+  width: 100%;
+  background: #fff;
+  font-size: 18px;
+}
+ .form_item_textarea {
+ 	width: 100%;
+ 	border: 1px solid #ddd;
+  	border-radius: 6px;
+    margin-top: 15px;
+    margin-left: 0;
+    height: 200px;
+    background: #fff;
+    font-size: 15px;
+  }
+.form_btn {
+	color: #5C6567;
+  border-radius: 6px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px;
+  width: 250px;
+  display: block;
+  letter-spacing: 0.05em;
+  background: #FFFE62;
+  font-weight: bold;
+  font-size: 20px;
+}
+.form_btn:hover {
+	background-color: #CCB100;
+}
+/*------------フッター-------------*/
+footer {
+	padding: 20px 0px;
+}
+.footer_img {
+	width: 150px;
+}
+.footer_bg {
+	background-color: #D5FDFF;
+}
+/*------------スマホ版-------------*/
+@media (max-width:1200px){
+h3 {
+	font-size: 20px;
+}
+.txts {
+ font-size: 12px;
+}
+.main-visual_cont {
+	text-align: center;
+	flex-direction: column-reverse;
+}
+
+.main-visual_img {
+	margin-top: 10%;
+	width: 100%;
+	height: auto;
+}
+.point_cont {
+	flex-wrap: wrap;
+}
+}
+
+@media (max-width:600px){
+.wrap {
+	width: 100%;
+}
+
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 18px;
+}
+
+.txtm {
+	font-size: 15px;
+	margin: 20px 0px;
+}
+.btnl {
+	font-size: 20px;
+	padding: 20px 30px;
+}
+.logo_img {
+	width: 130px;
+}
+.nav_txt {
+	font-size: 15px;
+	font-weight: 700;
+}
+.main-visual {
+	text-align: center;
+	flex-direction: column-reverse;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
