@@ -1,0 +1,184 @@
+/*------------管理者トップページ-------------*/
+.admin_top {
+	text-align: center;
+	padding: 7% 0px;
+}
+.admin_top_select,
+.admin_top_select2 {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.admin_top_btn {
+	width: 250px;
+	display: inline-block;
+	border-radius: 15px;
+	margin: 8% 20px;
+	padding: 20px 50px;
+	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.06);
+}
+.admin_top_btn2 {
+	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.06);
+	width: 200px;
+	display: inline-block;
+	border-radius: 5px;
+	margin: 5% 30px;
+	padding: 10px auto;
+}
+.darkblue_btn {
+	background-color: #00A3CC;
+}
+.darkblue_btn:hover {
+	background-color: #0183A3;
+}
+.green_btn {
+	background-color: #00CCB1;
+}
+.green_btn:hover {
+	background-color: #008080;
+}
+.top_btn {
+	background-color: #00C4CC;
+}
+.top_btn:hover {
+	background-color: #03989F;
+}
+.blue_btn {
+	background-color: #44c1eb;
+}
+.blue_btn:hover {
+	background-color: #0080a1;
+}
+
+.lightblue_btn {
+	background-color: #D5FDFF;
+}
+.lightblue_btn:hover {
+	background-color: #71F9FF;
+}
+.gray_btn {
+	background-color: #ddd;
+}
+.gray_btn:hover {
+	background-color: #BABABA;
+}
+
+.admin_top_icon {
+	color: #5C6567;
+	margin-top: 30px;
+	font-size: 50px;
+}
+/*------------入退室管理ページ-------------*/
+.access {
+	padding: 5% 0px;
+}
+.access_submit_btn {
+	padding: 10px;
+	color: #5C6567;
+	border-radius: 10px;
+}
+.enter_btn {
+	padding: 10px;
+	color: #5C6567;
+	border-radius: 10px;
+}
+.exit_btn {
+	padding: 10px;
+	color: #5C6567;
+	border-radius: 10px;
+}
+/*------------表全般-------------*/
+table {
+	margin: 0px auto;
+	width: 90%;
+	text-align: center;
+	border: 2px solid #00C4CC;
+}
+table th {
+  border: dashed 1px #fff;
+  background-color:#00C4CC;
+}
+table td {
+  border: dashed 1px #00C4CC;
+  padding: 10px;
+}
+table tr:nth-child(odd) {
+  background-color:  #D5FDFF;
+}
+caption {
+	text-align: left;
+	padding-left: 10px;
+}
+/*------------予定表------------*/
+.plan,
+.plan_form {
+	padding: 5% 0px;
+}
+.plan_form_select {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  height: 20px;
+  width: 40%;
+  background: #fff;
+  font-size: 15px;
+}
+.plan_form_input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 0px;
+  height: 40px;
+  width: 100%;
+  background: #fff;
+  font-size: 15px;
+}
+.align-left {
+	text-align: left;
+}
+.month {
+	font-size: 20px;
+	padding-right: 20px;
+}
+/*------------イベント------------*/
+.event,
+.event_form {
+	padding: 5% 0px;
+}
+/*------------連絡網------------*/
+.mail,
+.mail_form {
+	padding: 5% 0px;
+}
+/*------------スマホ版-------------*/
+@media (max-width:1200px){
+.admin_top_btn {
+	width: 300px;
+	padding: 20px 50px;
+}
+}
+
+@media (max-width:600px){
+.admin_top_select {
+	margin:  30px;
+	flex-direction: column;
+}
+.admin_top_btn {
+	margin: 30px auto;
+	padding: 5px 0px;
+	width: 60%;
+}
+.admin_top_btn2 {
+	width: 30%;
+	margin: 20px;
+}
+.nav {
+	display: none;
+}
+}
+
+
+
+
+
+
+
